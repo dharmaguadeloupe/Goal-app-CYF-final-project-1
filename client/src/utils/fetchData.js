@@ -3,7 +3,7 @@ export default async function fetchData(
 	methodObj = { method: "GET" }
 ) {
 	const response = await fetch(
-		`https://goal-app-cyf-final-project.herokuapp.com/api${endPoint}`,
+		`http://127.0.0.1:3100/api${endPoint}`,
 		methodObj
 	);
 	return response;

@@ -10,7 +10,9 @@ const Password = () => {
 	};
 	const forgotPassword = (e) => {
 		e.preventDefault();
-		alert('Email has been sent')
+		if (email.length<=0)
+			alert("Please Enter your email address");
+		else alert("Email has been sent");
 		const methodObj = {
 			method: "POST",
 			headers,
