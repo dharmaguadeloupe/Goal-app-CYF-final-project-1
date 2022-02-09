@@ -42,7 +42,7 @@ const ResetPassword = () => {
 			<div className="form">
 				<form action="" method="get">
 					<div className="form-field">
-						<p class='password-heading'><strong><h4>Replace url, press enter and enter new password </h4></strong></p>
+						<p class='password-heading'><strong><h4>Enter new password </h4></strong></p>
 
 						<div className="label-ctn">
 							<label htmlFor="password">Enter New password</label>
