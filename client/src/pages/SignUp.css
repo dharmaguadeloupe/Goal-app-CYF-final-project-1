@@ -9,9 +9,8 @@
   padding: 1em 0em;
 }
 
-.signup-ctn .temporary-link {
+.signup-ctn .go-signin-link {
   margin-left: 0.4em;
-  /* text-decoration: underline; */
   font-weight: 700;
 }
 

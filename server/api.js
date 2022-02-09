@@ -506,7 +506,6 @@ router.post("/reset_password/:id", (req, res) => {
 });
 
 router.get("/", (req, res) => {
-
 	const request = require("request");
 
 	const code = req.query.code;
@@ -533,7 +532,6 @@ router.get("/", (req, res) => {
 		request(path_to_access_token, function (error, response, body) {
 			// Request token from Slack using the access_code, then handle response
 			let teamInfo = JSON.parse(body);
-
 			// Read a token from the environment variables
 
 			const { WebClient, ErrorCode } = require("@slack/web-api");

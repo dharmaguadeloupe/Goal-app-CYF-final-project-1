@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,600;0,700;1,400&display=swap");
 
 /* ------------ Variables -------------*/
 :root {
 	--main-bg-color: #fff;
 	--login-card-bg-color: rgb(255, 255, 255);
-	--header-bcg-color: #0077b6;
+	--header-bcg-color: #4B73B5;
 	--linear-bg: -webkit-linear-gradient(left, #505e8d, #4298fa);
 	--primary-color: #053974;
 	--hover-primary-color: #fcfafa;
@@ -114,7 +113,7 @@ ul {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-rows: 100px auto;
-	font-family: "Arimo", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+	font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
 		"Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif";
 	background-color: var(--main-bg-color);
 }
@@ -122,8 +121,7 @@ ul {
 /*-------------- Header ---------------*/
 .header.login-page {
 	padding: 1.2em 1em;
-	background-color: #4B73B5
-	/* var(--header-bcg-color) */;
+	background-color: var(--header-bcg-color);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

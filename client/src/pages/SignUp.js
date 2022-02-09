@@ -111,7 +111,7 @@ const SignUp = () => {
 			<p>
 				Come and join the HTCT community! Let's set up your account. Already
 				have one?{" "}
-				<Link className="temporary-link" to="/">
+				<Link className="go-signin-link" to="/">
 					Sign in here
 				</Link>
 			</p>
