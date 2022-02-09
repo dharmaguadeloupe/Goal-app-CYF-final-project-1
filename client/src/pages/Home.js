@@ -57,7 +57,7 @@ export function Home({ setLogin }) {
 			<div className="slack-connect">
 				<a
 					href={
-						"https://slack.com/openid/connect/authorize?scope=openid&response_type=code&redirect_uri=https://goal-app-cyf-final-project.herokuapp.com/api/&client_id=568949636710.2927110204163"
+						"https://slack.com/openid/connect/authorize?scope=openid&response_type=code&redirect_uri=https://30a8-2-222-102-147.ngrok.io/api/&client_id=2977670222342.2984355485058"
 					}
 				>
 					<img

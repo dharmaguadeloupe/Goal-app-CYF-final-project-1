@@ -559,7 +559,7 @@ router.get("/", (req, res) => {
 					.then((result) => {
 						if (result.rowCount < 1) {
 							res.redirect(
-								"https://goal-app-cyf-final-project.herokuapp.com/signup"
+								"http://localhost:3000/signup"
 							);
 						} else {
 							username = result.rows[0].username;
@@ -567,9 +567,7 @@ router.get("/", (req, res) => {
 							tokenarray.push(authtoken);
 							//localStorage.setItem("token", authtoken); //if you are sending token.
 							slacklogin["token"] = tokenarray[0];
-							res.redirect(
-								`https://goal-app-cyf-final-project.herokuapp.com/${username}`
-							);
+							res.redirect(`http://localhost:3000/${username}`);
 						}
 					})
 					.catch();
